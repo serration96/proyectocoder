@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="#">
+            <img src="./img/circuito provincial logo.png" alt="Logo circuito provincial de badminton" class="navbar__imag">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./index.html">Noticias</a>
+              <a class="nav-link" href="./pages/Ranking.html">Ranking</a>
+              <a class="nav-link" href="./pages/Torneos.html">Torneos</a>
+              <a class="nav-link" href="./pages/El-circuito.html">El Circuito</a>
+              <a class="nav-link" href="./pages/Sponsors-fotos.html">Sponsors-fotos</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6  col-md-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item noticias__video" controls  width="100%">
+                            <source src="./Videos/y2mate.com - HSBC BWF World Tour Finals 2019 _ Finals MD Highlights _ BWF 2019_vbD3ebDe7S4_720p.mp4" type="video/mp4" ><!-- no se como hacer responsive el video, le meti 500 x 500  -->
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-7 col-md-4 offset-md-5 col-bs-2 offset-bs-5 articulos-noticias flex-column"> <!-- aca no se como hacer para que quede bien entre los 1000 px y los 760 px lo de bs lo invente para ver si salia  -->
+                    <div>
+                        <h1>Noticias</h1>
+                    </div>
+                    <article>
+                        <h2>2da Fecha del Circuito</h2>
+                        <p class="noticias">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum rem aspernatur ratione nulla ducimus cumque exercitationem reprehenderit itaque recusandae praesentium! Odit impedit temporibus aperiam facere! Debitis nobis doloremque maxime blanditiis.</p>
+                    </article>
+                    <article>
+                        <h2>Actualización de Ranking</h2>
+                        <p class="noticias">Se llevó a cabo la actualización del <a href="./pages/Ranking.html">Ranking</a> del Circuito Provincial de Bádminton de Neuquén según los resultados de la fecha 1 en Chos Malal.</p>
+                    </article>
+                </div>
+        </section>
+    </main>
+
+    <footer class="card text-center footer">
+        <div class="card-header">
+          <h1>CIRCUITO PROVINCIAL DE BÁDMINTON DE NEUQUÉN</h1>
+        </div>
+        <div class="card-body container">
+            <div class="row">
+                <div class="col-lg-6  col-md-12">
+                    <img src="./img/circuito provincial logo.png" class="footer__img" alt="logo circuito provincial" >
+                    <p class="">Todos los derechos reservados</p>
+                </div>
+                <div class="col-lg-2 col-md-12 footer__boton">
+                    <a href="#" class="btn btn-primary">Contacto</a>
+                </div>
+        </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
